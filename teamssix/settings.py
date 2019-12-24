@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
     'teamssix.pipelines.TeamssixPipeline': 300,
 }
 
-MONGO_DB_URI = 'mongodb://192.168.38.129:27017'
+MONGO_DB_URI = 'mongodb://127.0.0.1:27017'
 MONGO_DB_NAME = 'blog'
 
 
